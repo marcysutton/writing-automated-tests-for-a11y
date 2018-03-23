@@ -1,0 +1,24 @@
+{
+  "name": "csun-writing-automated-tests",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "combobo": "^2.0.1",
+    "deque-slide-deck": "^1.2.0",
+    "gh-pages": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-fast-highlight": "^2.2.0",
+    "react-offscreen": "^1.0.2",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://marcysutton.github.io/writing-automated-tests-for-a11y"
+}
